@@ -1,25 +1,25 @@
 page {
-  background-color: #f6f6f6;
+    background-color: #f6f6f6;
 }
 
-.container{
-  padding: 20rpx;
+.container {
+    padding: 20rpx;
 }
 
 .item {
-  border-radius: 5px;
-  margin-top: 30rpx;
-  background-color: white;
-  display: flex;
-  padding: 30rpx 25rpx;
-  align-items: center;
-  justify-content: space-between;
+    border-radius: 5px;
+    margin-top: 30rpx;
+    background-color: white;
+    display: flex;
+    padding: 30rpx 25rpx;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
 .line {
-  width: 95%;
-  margin: 0 auto;
-  height: 2rpx;
-  background-color: rgba(0, 0, 0, 0.1);
+    width: 95%;
+    margin: 0 auto;
+    height: 2rpx;
+    background-color: rgba(0, 0, 0, 0.1);
 }
