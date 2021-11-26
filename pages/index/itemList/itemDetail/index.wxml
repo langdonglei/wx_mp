@@ -1,0 +1,26 @@
+<view>
+  <view>{{item._id}}</view>
+  <view>{{item.name}}</view>
+
+  <image src="{{zanImage}}" bindtap="zan"></image>
+  <image src="{{cangImage}}" bindtap="cang"></image>
+
+  <block wx:for="{{item.comments}}" wx:key="index">
+    <view class="comment-input">
+      <text>{{item.name}} 发表了评论: </text>
+      <text>{{item.content}}</text>
+    </view>
+  </block>
+
+  <input type="text" bindinput="input" value="{{input}}" placeholder="请输入评论内容" />
+  <button type="primary" bindtap="comment">发表评论</button>
+  
+</view>
+<!-- <wxs module="m">
+  module.exports.zanImage = function (zanGuo) {    
+    return zanGuo ? '../../images/zan_yes.png' : '../../images/zan_no.png'
+  }
+  module.exports.cangImage = function (cangGuo) {
+    return cangGuo ? '../../images/cang_yes.png' : '../../images/cang_no.png'
+  }
+</wxs> -->

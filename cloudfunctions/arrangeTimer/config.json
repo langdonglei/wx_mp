@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "openapi": []
+  },
+  "triggers": [{
+    "name": "name222",
+    "type": "timmer",
+    "config": "0 0 0"
+  }]
+}

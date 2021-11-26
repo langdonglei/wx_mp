@@ -1,0 +1,6 @@
+  <text class="item" wx:if="{{code}}">您的号码是 {{code}} 号</text>
+  <view wx:else class="item">
+    <view class="tip">今天已排至 {{max}} 号</view>
+    <button type="primary" bindtap="arrange" disabled="{{!ready}}">开始排号</button>
+  </view>
+  <button class="clean" bindtap="cleanDB">清库重启</button>

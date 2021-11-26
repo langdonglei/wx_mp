@@ -1,0 +1,12 @@
+page {
+  padding: 50rpx;
+  box-sizing: border-box;
+}
+image {
+  width: 50rpx;
+  height: 50rpx;
+}
+input {
+  height: 150rpx;
+  border: 1px solid gray;
+}
