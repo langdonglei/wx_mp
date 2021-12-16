@@ -1,7 +1,7 @@
 <view class="container">
+    <view class="item" bindtap="jump" data-page="/pages/index/testPage/index">testPage</view>
     <view class="item" bindtap="jump" data-page="/pages/index/itemList/index">itemList</view>
     <view class="item" bindtap="jump" data-page="/pages/index/arrange/index">arrange</view>
     <view class="item" bindtap="jump" data-page="/pages/index/uploadFile/index">uploadFile</view>
     <view class="item" bindtap="jump" data-page="/pages/index/openData/index">openData</view>
-  <button>test333</button>
 </view>
