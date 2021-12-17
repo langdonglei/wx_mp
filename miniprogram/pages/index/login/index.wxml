@@ -1,0 +1,6 @@
+<view>
+  <text>{{login_status_text}}</text>
+</view>
+<view>
+  <button bindtap="login">login</button>
+</view>

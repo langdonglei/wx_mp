@@ -6,7 +6,8 @@
     "pages/index/arrange/index",
     "pages/index/uploadFile/index",
     "pages/index/openData/index",
-    "pages/index/testPage/index"
+    "pages/index/testPage/index",
+    "pages/index/login/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

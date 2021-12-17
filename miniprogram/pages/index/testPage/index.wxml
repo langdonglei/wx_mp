@@ -1,2 +1,3 @@
-<!--pages/index/testPage/index.wxml-->
-<text>pages/index/testPage/index.wxml111</text>
+<view>
+  <button bindtap="test">test</button>
+</view>
